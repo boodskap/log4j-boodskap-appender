@@ -1,6 +1,17 @@
 # log4j-boodskap-appender
 Log4J Boodskap Platform Appender
 
+# Maven Dependency
+```xml
+    <dependencies>
+        <dependency>
+                <groupId>io.boodskap.iot.ext</groupId>
+                <artifactId>log4j-boodskap-appender</artifactId>
+                <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+```
+
 # Sample log4j2.xml Configuration
 
 ```xml
