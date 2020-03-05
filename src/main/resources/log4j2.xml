@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Appenders>
+    <Console name="Console">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>
+    </Console>
+    <Boodskap name="Boodskap">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %c{1}:%L - %m%n"/>
+      <sync>false</sync>
+      <queueSize>10000</queueSize>
+      <apiBasePath></apiBasePath>
+      <domainKey></domainKey>
+      <apiKey></apiKey>
+      <appId></appId>
+    </Boodskap>
+  </Appenders>
+  <Loggers>
+    <Root level="DEBUG">
+      <AppenderRef ref="Boodskap"/>
+    </Root>
+  </Loggers>
+</Configuration>
