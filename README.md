@@ -3,6 +3,7 @@ Log4J Boodskap Platform Appender
 
 # Sample log4j2.xml Configuration
 
+```xml
     <Boodskap name="Boodskap">
       
       <!--Refer to Log4J PatternLayout for more details-->
@@ -27,3 +28,4 @@ Log4J Boodskap Platform Appender
       <appId></appId>
       
     </Boodskap>
+```
